@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+<meta charset= "utf-8">
+<link rel= "stylesheet" href= "circles_style.css">
+<title>The Game</title>
+</head>
+<body>
+  <div class = "scores">
+    <span>
+      <p class = "score">Game bill: </p>
+      <p class = "total score">000</p>
+    </span>
+    <span>
+      <p class = "score">Record: </p>
+      <p class = "record score">000</p>
+    </span>
+    <span>  
+      <p class = "score">Time: </p>
+      <p class = "timer score">00:00</p>
+    </span>
+    <span>
+      <input type="text" name="time" id="time" placeholder="Your time in seconds">
+      <input value = "Start" onclick="start()" type="button" id="start">
+      <input value = "One more time" onclick="restart()" type="button" id="restart" disabled>
+      <input value = "Stop" onclick="stop()" type="button" id="stop">
+    </span>
+  </div>  
+
+  <div class="circle first "><img src ="img/test_6.png" class = "picture picture_vis" width="190px" onclick="score()" > </div>
+  <div class="circle second"><img src ="img/test_6.png" class = "picture picture_vis" width="190px" onclick="score()"> </div>
+  <div class="circle third"><img src ="img/test_6.png" class = "picture picture_vis" width="190px" onclick="score()"> </div>
+  <div class="circle fourth"><img src ="img/test_6.png" class = "picture picture_vis" width="190px" onclick="score()"> </div>
+  <div class="circle fifth"><img src ="img/test_6.png" class = "picture picture_vis" width="190px" onclick="score()"> </div>
+  <div class="circle sixth"><img src ="img/test_6.png" class = "picture picture_vis" width="190px" onclick="score()"> </div>
+  <div class="circle seventh"><img src ="img/test_6.png" class = "picture picture_vis" width="190px" onclick="score()"> </div>
+  <div class="circle eighth"><img src ="img/test_6.png" class = "picture picture_vis" width="190px" onclick="score()"> </div>
+  <div class="circle ninth"><img src ="img/test_6.png" class = "picture picture_vis" width="190px" onclick="score()"> </div>
+  <div class="circle tenth"><img src ="img/test_6.png" class = "picture picture_vis" width="190px" onclick="score()"> </div>
+  <table> 
+
+
+</body>
+<script src = "game_catch.js"></script>
+</html>
+

@@ -1,0 +1,78 @@
+body{
+    background-image: url(img/back5.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+.scores{
+    display: flex;
+    font-size: 20px;
+    flex-direction: row;
+    justify-content: space-around;
+    box-shadow: inset 10px 10px 100px white;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+
+.circle{
+    display: inline-block;
+    width: 17%;
+    height: 250px;
+    border: 5px red solid;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+   
+    
+}
+
+.picture{
+   
+    padding-top: 23%;
+    visibility: hidden;
+    
+}
+
+.picture_vis{
+    animation-duration: 0.7s;
+    animation-name: opacity;
+    transition: transform 0.7s;
+    visibility: visible;
+    transform: translateY(-20px);
+
+}
+@keyframes opacity{
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+
+}
+#start, #restart, #stop{
+    width: 100px;
+    height: 50px;
+    margin-top: 25px;
+    /* color: rgb(15, 0, 97); */
+    
+  
+}
+/* #time{
+    background: linear-gradient(45deg, rgb(165, 0, 0), rgb(70, 0, 70));
+    color:rgb(240, 247, 141);
+}
+#start{
+    background: linear-gradient(45deg, gold, silver);
+}
+#restart{
+    background: linear-gradient(45deg, blue, pink);
+}
+#stop{
+    background: linear-gradient(45deg, palegoldenrod, cyan); 
+}
+*/
